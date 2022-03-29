@@ -1,0 +1,27 @@
+{
+	"dashboard":{
+		"subtitle":"Tus Saldos",
+		"firstComponentCard":{
+			"moreInfoText":"Más información"
+		},
+		"secondComponentCard":{
+			"title":"Notificaciones recientes",
+			"seeMoreText":"Ver todas",
+			"datePaymentText":"Fecha de Pago Cercana",
+			"totalContractText": "Total de Contratos:"
+		},
+		"thirdComponentAlert":{
+			"mainText":"Agiliza tu pago de tenencias",
+			"subText":"¡En UNIFIN lo hacemos por ti!",
+			"buttonElement": "¡Conoce más!"
+		}
+	},
+	"tenency":{
+		"title":"Pago de tenencias",
+		"alertText":"Si tu estado requiere cambio de placas, estaremos en contacto contigo para agilizarlo.",
+		"firstLabel":"No. ID anexo",
+		"secondLabel": "No. de serie",
+		"firstOption":"Si",
+		"secondOption":"No"
+	}
+}

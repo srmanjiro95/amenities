@@ -1,0 +1,39 @@
+.modal {
+  width: 600px !important;
+  height: 280px !important;
+  margin: auto;
+}
+
+.ui.basic.grey.button,
+.ui.basic.grey.buttons .button {
+  box-shadow: 0 0 0 1px #767676 inset !important;
+  color: #767676 !important;
+  width: auto;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+.containerIconCAll {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #dde1e6;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 5px;
+}
+
+.iconCall {
+  transform: rotate(90deg);
+}
+
+.containerButtons {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}

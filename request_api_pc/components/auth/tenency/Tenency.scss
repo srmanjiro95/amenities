@@ -1,0 +1,18 @@
+.titleElement{
+  margin: 40px auto 10px  !important;
+}
+
+.containerElement {
+  display: flex !important;
+  justify-content: center !important;
+  min-height: 100vh - 20vh;
+  margin:0px auto;
+}
+
+.ui.grid, .ui.card{
+  width: 100% !important;
+}
+
+.ui.header{
+  width: 100%;
+}

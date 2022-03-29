@@ -1,0 +1,135 @@
+.contenedorGHLogin {
+  display: flex;
+  text-align: center;
+  box-shadow: 0px 12px 40px -8px rgba(8, 53, 102, 0.08);
+  height: 10vh;
+
+  img {
+    margin: auto;
+    border-style: none;
+    max-height: 100%;
+  }
+}
+
+.contenedorGDerechos {
+  height: 3.5rem;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  flex: 0 0 auto;
+  box-shadow: 0px -12px 40px -8px rgba(8, 53, 102, 0.08);
+}
+
+.contenedorRowDerechos {
+  background-color: #ffffff;
+  height: 10vh;
+}
+
+.derechos {
+  padding: 1rem;
+}
+
+.derechos p {
+  margin: 0;
+  padding: 0;
+}
+
+.derechosReservados {
+  font-family: "DINPro", "sans.serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #083566;
+}
+
+.derechosPresidente {
+  font-family: "DINPro", "sans.serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #bbc1c7;
+}
+
+.contenedoresIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid #dde1e6;
+  border-radius: 50%;
+  margin: auto 2rem;
+  a {
+    color: #083566;
+    i.icon {
+      margin: 0;
+    }
+  }
+}
+
+.terminos {
+  display: flex;
+  border-left: 1px solid #dde1e6;
+  .ui.grid > .column:not(.row),
+  .ui.grid > .row > .column {
+    position: relative;
+    display: flex;
+  }
+}
+
+.terminosDiv {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    font-family: DINPro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #083566;
+  }
+}
+
+.contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: auto;
+  display: flex;
+  border-left: 1px solid #dde1e6;
+}
+
+.contenedoresIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid #dde1e6;
+  border-radius: 50%;
+  margin: auto 2rem;
+  a {
+    color: #083566;
+    i.icon {
+      margin: 0;
+    }
+  }
+}
+
+.iconoCheck {
+  color: #05944f;
+}
+
+.inputForm {
+  width: 100% !important;
+}
