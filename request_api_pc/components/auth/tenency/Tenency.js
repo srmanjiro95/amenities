@@ -8,6 +8,11 @@ export default function Tenency() {
     <Segment placeholder>
       <ul>
         <li>
+          <Link href="/auth" >
+            <a><h3>Auth - postLogin()</h3></a>
+          </Link>
+        </li>
+        <li>
           <Link href="/products/leasing/getLeasing" >
             <a><h3>Products - getLeasing()</h3></a>
           </Link>
