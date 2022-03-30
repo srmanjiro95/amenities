@@ -19,6 +19,6 @@ export default function Home({ data }) {
 
 export async function getStaticProps() {
   
-  return CreditNotesService.getMonthIndex("leasing", "2021-08")
+  return CreditNotesService.getMonthIndex("leasing", "2021-02")
 
 }

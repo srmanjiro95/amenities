@@ -1,7 +1,7 @@
 import Layout from "../../components/layouts";
 import { useState } from "react";
 
-import AccountStatementsService from "../../services/credit_notes/credit_notes.services";
+import AccountStatementsService from "../../services/account_statements/account_statements.services";
 
 
 export default function Home({ data }) {

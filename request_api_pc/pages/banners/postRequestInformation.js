@@ -1,7 +1,7 @@
 import Layout from "../../components/layouts";
 import { useState } from "react";
 
-import CreditNotesService from "../../services/credit_notes/credit_notes.services";
+import BannersService from "../../services/banners/banners.services";
 
 
 export default function Home({ data }) {
@@ -19,6 +19,7 @@ export default function Home({ data }) {
 
 export async function getStaticProps() {
   
-  return CreditNotesService.getDownloadFile("leasing", '1_4410_NC_41810', 'PDF')
+    // slug = 'banner_web'
+    return BannersService.postRequestInformation('banner_web')
 
 }

@@ -48,6 +48,11 @@ export default function Tenency() {
           </Link>
         </li>
         <li>
+          <Link href="/products/credit_simple/getCreditSimpleNextPayments">
+          <a><h3>Products - getCreditSimpleNextPayments()</h3></a>
+          </Link>
+        </li>
+        <li>
           <Link href="/products/payments/getPayments">
           <a><h3>Products - getPayments()</h3></a>
           </Link>
@@ -58,8 +63,28 @@ export default function Tenency() {
           </Link>
         </li>
         <li>
+          <Link href="/products/benefits/postRequestBenefits">
+          <a><h3>Products - postRequestBenefits(17)</h3></a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/products/postRequest">
+          <a><h3>Products - postRequest('leasing', 'ggonzalez@unifin.com.mx', 'nuevo Leasing')</h3></a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/products/postRequest">
+          <a><h3>Products - postRequest('leasing', 'ggonzalez@unifin.com.mx', 'renovación de línea de crédito de Leasing')</h3></a>
+          </Link>
+        </li>
+        <li>
           <Link href="/banners/getBanners">
           <a><h3>Banners - getBanners()</h3></a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/banners/postRequestInformation">
+          <a><h3>Banners - postRequestInformation('banner_web')</h3></a>
           </Link>
         </li>
         <li>
@@ -89,7 +114,7 @@ export default function Tenency() {
         </li>
         <li>
           <Link href="/credit_notes/getDownloadFile">
-          <a><h3>Credit Notes - getDownloadFile('leasing', 1)</h3></a>
+          <a><h3>Credit Notes - getDownloadFile('leasing', '1_4410_NC_41810', 'PDF')</h3></a>
           </Link>
         </li>
         <li>
@@ -140,6 +165,11 @@ export default function Tenency() {
         <li>
           <Link href="/contracts/getRequestInsurancePolicy">
           <a><h3>Contracts - getRequestInsurancePolicy()</h3></a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/contracts/postRequestInsuranceRenewal">
+          <a><h3>Contracts - postRequestInsuranceRenewal('62629')</h3></a>
           </Link>
         </li>
       </ul>

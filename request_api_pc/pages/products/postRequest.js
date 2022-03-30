@@ -1,7 +1,7 @@
 import Layout from "../../components/layouts";
 import { useState } from "react";
 
-import CreditNotesService from "../../services/credit_notes/credit_notes.services";
+import ProductRequestService from "../../services/products/request_new_renew.services";
 
 
 export default function Home({ data }) {
@@ -19,6 +19,6 @@ export default function Home({ data }) {
 
 export async function getStaticProps() {
   
-  return CreditNotesService.getDownloadFile("leasing", '1_4410_NC_41810', 'PDF')
+  return ProductRequestService.postRequest("leasing", "ggonzalez@unifin.com.mx", "nuevo Leasing")
 
 }

@@ -1,7 +1,7 @@
 import Layout from "../../components/layouts";
 import { useState } from "react";
 
-import CreditNotesService from "../../services/credit_notes/credit_notes.services";
+import ContractsService from "../../services/contracts/contracts.services";
 
 
 export default function Home({ data }) {
@@ -19,6 +19,7 @@ export default function Home({ data }) {
 
 export async function getStaticProps() {
   
-  return CreditNotesService.getDownloadFile("leasing", '1_4410_NC_41810', 'PDF')
+    // contract_number = '62629'
+    return ContractsService.postRequestInsuranceRenewal('62629')
 
 }
